@@ -1,0 +1,13 @@
+{
+    "name": "aggunawan/google-ads",
+    "description": "Google Ads 5 Client Library compatible with Laravel",
+    "authors": [
+        {
+            "name": "Agung Gunawan",
+            "email": "agunggunawan.github@gmail.com"
+        }
+    ],
+    "require": {
+        "googleads/google-ads-php": "^5.0"
+    }
+}
