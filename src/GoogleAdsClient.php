@@ -8,9 +8,25 @@ use Google\Ads\GoogleAds\Lib\V5\GoogleAdsClientBuilder;
 class GoogleAdsClient
 {
 
+    /**
+     * Constructed Google OAuth 2 object
+     * 
+     * @var \Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder
+     */
     private $oauthToken;
+
+    /**
+     * Constructed Google Ads Client object
+     * 
+     * @var \Google\Ads\GoogleAds\Lib\V5\GoogleAdsClientBuilder
+     */
     private $client;
 
+    /**
+     * Build this class
+     * 
+     * @param array $config
+     */
     public function __construct(array $config)
     {
         $config = collect($config);
@@ -29,11 +45,21 @@ class GoogleAdsClient
 
     }
 
+    /**
+     * Get crafted OAuth object
+     * 
+     * @return \Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder
+     */
     public function getOauthClient()
     {
         return $this->oauthToken;
     }
 
+    /**
+     * Get crafted Google Ads Client object
+     * 
+     * @return \Google\Ads\GoogleAds\Lib\V5\GoogleAdsClientBuilder
+     */
     public function getClient()
     {
         return $this->client;

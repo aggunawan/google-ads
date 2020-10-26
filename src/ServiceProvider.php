@@ -2,9 +2,9 @@
 
 namespace Aggunawan\GoogleAds;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as BaseProvider;
 
-class GoogleAdsServiceProvider extends ServiceProvider
+class ServiceProvider extends BaseProvider
 {
     /**
      * Register services.

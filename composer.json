@@ -9,5 +9,12 @@
     ],
     "require": {
         "googleads/google-ads-php": "^5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aggunawan\\GoogleAds\\ServiceProvider"
+            ]
+        }
     }
 }
