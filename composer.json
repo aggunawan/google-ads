@@ -1,6 +1,7 @@
 {
     "name": "aggunawan/google-ads",
     "description": "Google Ads 5 Client Library compatible with Laravel",
+    "license": "MIT",
     "authors": [
         {
             "name": "Agung Gunawan",
@@ -21,5 +22,7 @@
                 "Aggunawan\\GoogleAds\\ServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
