@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aggunawan\\GoogleAds\\": "google-ads/src/"
+            "Aggunawan\\GoogleAds\\": "src/"
         }
     },
     "extra": {
